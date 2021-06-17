@@ -5,16 +5,16 @@
             <form id="form" action="<?= BASEURL ?>home/daftar" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="nama">Nama Lengkap</label>
-                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Maulana Kevin Pradana" required>
+                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Figo Perdana Putra" required>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="username">username</label>
-                        <input type="username" class="form-control" id="username" name="username" placeholder="maulanakevinp" required>
+                        <input type="username" class="form-control" id="username" name="username" placeholder="figoperdana" required>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="maulanakevinp@gmail.com" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="perdanaputrafigo@gmail.com" required>
                     </div>
                 </div>
                 <div class="form-row">

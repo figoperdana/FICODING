@@ -62,7 +62,6 @@
 							<label for="password">Password</label>
 							<input type="password" class="form-control" id="password" name="password" required>
 						</div>
-						<a class="btn-link" href="<?= BASEURL ?>home/pendaftaran">Sign Up</a>
 					</div>
 
 					<div class="modal-footer">

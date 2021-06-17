@@ -13,6 +13,7 @@ class Flasher
             $materiku = BASEURL . "/materiku";
             $pengaturan = BASEURL . "/pengaturan";
             $logout = BASEURL . "/home/logout";
+            $pendaftaran = BASEURL . "/home/pendaftaran";
 
             echo "<ul class='nav nav-pills navbar-nav p-2'>
 				<li class='nav-item dropdown '>
@@ -23,6 +24,7 @@ class Flasher
                         <a class='dropdown-item' href='$profil'>Profil</a>
                         <a class='dropdown-item' href='$materiku'>Materi Saya</a>
                         <a class='dropdown-item' href='$pengaturan'>Pengaturan</a>
+                        <a class='dropdown-item' href='$pendaftaran'>Pendaftaran Pemateri</a>
                         <div class='dropdown-divider'></div>
 						<a class='dropdown-item' href='$logout'>Logout</a>
 					</div>
