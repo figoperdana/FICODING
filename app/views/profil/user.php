@@ -3,17 +3,17 @@
         <h5 class="card-header">Profil</h5>
         <div class="card-body">
             <div class="mb-3" style="width: 100%; height: 200px; background:url('<?= BASEURL ?>assets/img/picture/abstract-green-wallpapers-hd-desktop-and-mobile-backgrounds.jpg'); background-size: 100% 200px">
-                <img src="<?= BASEURL ?>app/models/cover/<?= $data['penjual']['cover'] ?>" alt="" width="100%" height="100%">
+                <img src="<?= BASEURL ?>app/models/cover/<?= $data['pemateri']['cover'] ?>" alt="" width="100%" height="100%">
             </div>
             <div class="float-left mr-3 rounded-circle">
-                <img class=" rounded-circle" src="<?= $data['penjual']['foto'] ?  BASEURL . 'app/models/foto/' . $data['penjual']['foto'] : BASEURL . 'assets/img/icon/noavatar.png' ?>" alt="Foto Profil" width="100px" style="max-height: 130px; object-fit: cover;">
+                <img class=" rounded-circle" src="<?= $data['pemateri']['foto'] ?  BASEURL . 'app/models/foto/' . $data['pemateri']['foto'] : BASEURL . 'assets/img/icon/noavatar.png' ?>" alt="Foto Profil" width="100px" style="max-height: 130px; object-fit: cover;">
             </div>
-            <h5 class="card-title "><?= $data['penjual']['nama'] ?></h5>
-            Email : <?= $data['penjual']['email'] ?> <br>
-            Nomor : <?= $data['penjual']['nomor_telepon'] ?> <br>
+            <h5 class="card-title "><?= $data['pemateri']['nama'] ?></h5>
+            Email : <?= $data['pemateri']['email'] ?> <br>
+            Nomor : <?= $data['pemateri']['nomor_telepon'] ?> <br>
             <p class="card-text text-muted">
-                Member sejak <?= $data['penjual']['created_at'] ?> <br>
-                Terakhir aktif <?= $data['penjual']['updated_at'] ?>
+                Member sejak <?= $data['pemateri']['created_at'] ?> <br>
+                Terakhir aktif <?= $data['pemateri']['updated_at'] ?>
             </p>
         </div>
     </div>

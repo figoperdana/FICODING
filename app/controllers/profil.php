@@ -23,10 +23,10 @@ class profil extends Controller
 
     public function user($id)
     {
-        $data['penjual'] = $this->model('User_model')->getUserByid($id);
+        $data['pemateri'] = $this->model('User_model')->getUserByid($id);
         $data['materiku'] = $this->model('Materi_model')->getMateriUser($id);
 
-        if (empty($data['penjual']) && empty($data['materiku'])) {
+        if (empty($data['pemateri']) && empty($data['materiku'])) {
             header('Location: ' . BASEURL);
             exit;
         } else {
@@ -35,13 +35,13 @@ class profil extends Controller
                 $data['user'] = $this->model('User_model')->getUserByid($_SESSION['id']);
                 $_SESSION['username'] = $data['user']['username'];
                 $_SESSION['foto'] = $data['user']['foto'];
-                $data['penjual']['created_at'] = $this->tgl_indo($data['penjual']['created_at']);
+                $data['pemateri']['created_at'] = $this->tgl_indo($data['pemateri']['created_at']);
                 $this->view('templates/header', $data);
                 $this->view('profil/user', $data);
                 $this->view('templates/footer');
             } else {
                 $data['judul'] = 'Belajar Pemrograman Website | Ficoding';
-                $data['penjual']['created_at'] = $this->tgl_indo($data['penjual']['created_at']);
+                $data['pemateri']['created_at'] = $this->tgl_indo($data['pemateri']['created_at']);
                 $this->view('templates/header', $data);
                 $this->view('profil/user', $data);
                 $this->view('templates/footer');
