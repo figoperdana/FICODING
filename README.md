@@ -14,7 +14,7 @@ Anggota Kelompok (Beserta NiM) :
 
 Link Github : https://github.com/figoperdana/pbo2-kelompok10/
 
-Link Website : https://ficoding.herokuapp.com/
+Link Website : http://ficoding.herokuapp.com/
 
 Link Youtube : https://youtu.be/lcAHmvGDetw
 
