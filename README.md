@@ -2,7 +2,7 @@
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Projek UAS Pemrograman Website 
+Projek UAS Pemrograman Website dengan tema Programming Education during Pandemic Era (SDGS 4)
 
 Kelompok : 10
 
@@ -15,6 +15,8 @@ Anggota Kelompok (Beserta NiM) :
 Link Github : https://github.com/figoperdana/pbo2-kelompok10/
 
 Link Website : https://ficoding.herokuapp.com/
+
+Link Youtube : https://youtu.be/Lpj_ttx8fh4
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
